@@ -59,10 +59,11 @@ for (var i=0;i<names.length;i++)/* fill in parts of the 'for' loop to loop over 
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
   if ( names[i].charAt(0).toLowerCase()==='j') {
-
-    helloSpeaker.speak(names[i]);  
+ 
+    byeSpeaker.speak(names[i]);
+  
    
   } else {
-    byeSpeaker.speak(names[i]);
+    helloSpeaker.speak(names[i]);  
   }
 }
